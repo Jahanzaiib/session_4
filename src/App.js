@@ -25,7 +25,7 @@ export default function App() {
       <button onClick={()=>setDay(!isDay)}> update Day</button>
       <button onClick={()=>setclasstime(!classtime)}> Is it my class time </button>
       
-      <h1>jahanzaib</h1>
+      
     </div>
    
   );
