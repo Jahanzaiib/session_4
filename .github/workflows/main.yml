@@ -33,6 +33,6 @@ jobs:
       run: npm install -g surge 
     - name: deploying using surge 
       
-      run: surge ./ jazisession4.surge.sh/ --token ${{secrets.SECRET_SURGE}}
+      run: surge ./ jazisession4.surge.sh/ --token ${{secrets.SURGE_TOKEN1}}
       
 
